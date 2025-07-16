@@ -130,7 +130,7 @@ const PlayerDetailsComponent = () => {
 
     const $delete = $player.querySelector("#delete");
 
-    //This eventlistener removes a player from the API and then re-renders the page with the updated version of the API
+  //This eventlistener removes a player from the API and then re-renders the page with the updated version of the API
     $delete.addEventListener("click", () => RemovePlayer(selectedPlayer.id));
 
     return $player;
